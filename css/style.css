@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.boton {
+    padding: 10px 14px;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    background-color: #3463e2;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header div, header nav{
+    line-height: 60px;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#logo {
+    vertical-align: middle;
+}
+nav {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.acedi {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.boton {
+    color: black;
+    background-color: white;
+    font-size: 14px;
+}
+.jumbotron {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    
+}
+
+.scritac {
+    width: 70%;
+    margin: 0 auto;
+    padding: 150px;
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+
+.scritac p {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.bottonn a {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 24px;
+}
+
+.bottonn .white {
+    color: black;
+    background-color: white;
+    margin-right: 35px;
+    
+}
+
+.imgg {
+    float: left;
+    width: 65%;
+}
+
+.dx .imgg {
+    padding-right: 100px;
+    text-align: right;   
+}
+
+.text {
+    float: left;
+    width: 35%;
+    padding-top: 30px;
+}
+
+.text h2, .text p {
+    max-width: 75%;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+h2 {
+    margin-left: 20px;
+}
+.white {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ .black {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    display: inline-block;
+} 
+
+footer {
+    background-color: #1f2225;
+}
+
+.footer1 {
+    border-bottom: 1px solid #5662ec;
+}
+
+.footer-c {
+    width: 70%;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 6);
+    padding-bottom: 30px;
+    padding-left: 80px;
+    
+}
+
+.col-special {
+    float: left;
+    width: calc((100% / 6)*2);
+}
+
+.footer-c .col-special h4 {
+    font-size: 30px;
+    padding-right: 200px;
+    color: #5662ec;
+}
+
+.footer-c .col-special img {
+    max-width: 30px;
+}
+
+.footer-c .col-special select {
+    border: none;
+    background-color: #23272A;
+    color: white;
+}
+
+.footer-lng {
+    margin: 10px 0;
+}
+
+.icons i {
+    color: white;
+    padding-right: 10px;
+}
+
+.footer-c ul li {
+    list-style: none;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-c ul li:first-child {
+    color: #5662ec;
+}
+.ita {
+    color: white;
+}
+
+.footer2 {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.footer2 img {
+    position: absolute;
+    top: 50px;
+    vertical-align: middle;
+}
+
+.footer2 button {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: #5662ec;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.registrati {
+    float: right;
+}
+.registrati .boton {
+    display: inline;
+    border-radius: 30px;
+    background-color: #5662ec;
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    right: 0;
+    
+}
